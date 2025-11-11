@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Turn of :
+      <h1 id="palo">x</h1>
+    </h1>
+
+    <div id="Btn1">
+      <button><h1 id="btnPalo">x</h1></button>
+    </div>
+
+    <script>
+        
+      let turn = "x";
+      let palo = document.getElementById("palo").innerHTML;
+      let btnPalo = document.getElementById("btnPalo").innerHTML;
+
+
+      document.getElementById("Btn1").addEventListener("click", () => {
+        if (palo == "x") {
+          document.getElementById("palo").innerHTML = "o";
+        }
+        if(palo=="o"){
+            document.getElementById("palo").innerHTML = "x";
+        }
+      });
+
+    </script>
+  </body>
+</html>
