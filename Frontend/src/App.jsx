@@ -2,35 +2,49 @@ import { useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Applayout from "./Components/Applayout";
-import Home from "./Components/Home";
+
 import Login from "./pages/Login";
 import REgister from "./pages/REgister";
 
+import Icon from "./pages/Icon";
+import Home from "./pages/home";
+import Search from "./pages/Search";
+import Profile from "./pages/Profile";
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Applayout />,
       children: [
+       
         {
-          path: "/home",
-          element: <Home />,
+          path: "/icon",
+          element: <Icon />,
+        },
+        {
+          path:"/",
+          element:<Home/>,
+        },
+        {
+          path:"/search",
+          element :<Search/> 
+        },
+        {
+          path:'/profile',
+          element : <Profile/>,
         },
       
       ],
     },
-
     {
-        
-          path:"/login",
-          element:<Login/>
-        
+      path: "/login",
+      element: <Login />,//
     },
 
     {
-      path:"/register",
-      element:<REgister/>
-    }
+      path: "/register",
+      element: <REgister />,
+    },
   ]);
   return (
     <>

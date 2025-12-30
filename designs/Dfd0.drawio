@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="r8V0i7qJdoPZugCIZBDM" name="Page-1">
+        <mxGraphModel dx="1668" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="220" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="220" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Level 0" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="303" y="160" width="220" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Insect detection system" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8">
+                    <mxGeometry y="50" width="220" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
